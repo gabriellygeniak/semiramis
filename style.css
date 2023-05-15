@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem {
+    width: 37%;
+}
+
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 16px; 
+    font-size: 26px;
+    padding: 15px 0;
+}
+
+.escola-imagem {
+    width: 21%
+}
+
+.escola {
+    background-image: linear-gradient(#424E61, #4EBFE9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo {
+    width: 45%;
+}
+
+.escola-titulo {
+    padding: 24px 0
+}
+
+.sobre-nos {
+    text-align: center;
+     padding: 50px 0;
+ } 
+
+.sobre-a-escola {
+    text-align: center;
+}
+
+.dois {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.imagem-tres {
+    text-align: center;
+}
+
+.atividades {
+    text-align: center;
+     padding: 50px 0;
+     font-size: 35px;
+}
+
+.assunto {
+    text-align: center;
+     padding: 50px 0;
+     font-size: 25px;
+}
+
+.extracurricular {
+    padding: 10px 0;
+    align-items: center;
+}
+
+.imagem-div {
+    text-align: center;
+}
+
+.plataformas {
+    text-align: center;
+     padding: 50px 0;
+}
+
+.plataformas-div {
+    text-align: center;
+}
+
+.estudante-titulos {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.plataforma-todos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+
+.parana-ingles {
+    width: 150px;
+}
+
+.parana-redacao {
+    width: 180px;
+}
+
+.leia-parana {
+    width: 220px;
+} 
+
+.plataforma-escola {
+	width: 200px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.plataforma-escola li {
+	display: inline-block;
+	text-align: center;
+	width: 160%;
+	vertical-align: top;
+	margin: 0 1.8%;
+	padding: 20px 30px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.plataforma-escola li:hover {
+	border-color: #10078f;
+}
+
+.plataforma-escola li:active {
+	border-color: #088C19;
+}
+
+.plataforma-escola li:hover h4 {
+	font-size: 24px;
+}
+
+.plataforma-escola h4 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+footer {
+    background-image: linear-gradient(#424E61, #4EBFE9);
+    background-color: #3d267e;
+    padding: 10px;
+    text-align: center;
+}
+
+.rodape{
+    width: 7%;
+}
+
+.rodape-dois {
+    color:bisque;
+    font-size: 12px;
+}
+
+.plataformas {
+    font-size: 35px;
+}
+
+
+
+
+
+
+nav {
+	position: absolute;
+	top: 74px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+.redacao-parana {
+	width: 200px;
+	padding: 29px;
+}
+
+.tronodevidro {
+	width: 95px;
+	padding: 40px;
+}
+
+.senhordosaneis {
+	width: 90px;
+	padding: 33px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+} 
+
+.plataformas-img {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+}
+
+.produtos li:active {
+	border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+	font-size: 24px;
+}
+
+.produtos h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.produto-descricao{
+	font-size: 18px;
+}
+
+
+

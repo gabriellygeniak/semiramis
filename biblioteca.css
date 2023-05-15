@@ -1,0 +1,64 @@
+
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem {
+    width: 15%;
+}
+
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 16px; 
+    font-size: 26px;
+    padding: 15px 0;
+}
+
+.escola-imagem {
+    width: 21%
+}
+
+.escola {
+    background-image: linear-gradient(#424E61, #4EBFE9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.imagem-biblioteca {
+    width: 50%;
+    padding: 26px 0;
+}
+
+.sala-livros {
+    text-align: center;
+}
+
+footer { 
+    background-image: linear-gradient(#424E61, #4EBFE9);
+    background-color: #3d267e;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-imagem {
+   width: 10%;
+}
